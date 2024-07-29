@@ -5,7 +5,7 @@ import { LoginComponent } from './componente/login/login.component';
 import { MenuComponent } from './componente/menu/menu.component';
 import { ActualizarClienteComponent } from './componente/actualizar-cliente/actualizar-cliente.component';
 import { LibroComponent } from './componente/libro/libro.component';
-import { FormsModule } from '@angular/forms'; // Ajusta la ruta según tu estructura
+import { FormsModule } from '@angular/forms'; 
 import { PrestamoComponent } from './componente/prestamo/prestamo.component';
 import { ListarPrestamosComponent } from './componente/lista-prestamo/lista-prestamo.component';
 import { HistorialComponent } from './componente/historial/historial.component';
