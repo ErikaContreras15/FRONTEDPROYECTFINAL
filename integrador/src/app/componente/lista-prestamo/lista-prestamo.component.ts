@@ -10,9 +10,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./lista-prestamo.component.css']
 })
 export class ListarPrestamosComponent implements OnInit {
-  prestamos: Prestamo[] = [];
-  userId: string | null = null;
-  link: string = '';
+ 
 
   constructor(private listaPrestamoService: ListaPrestamoService,private ruta: Router, private libroService: LibroService) { }
 
