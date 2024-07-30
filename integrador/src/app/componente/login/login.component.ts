@@ -18,11 +18,13 @@ export class LoginComponent implements OnInit {
     this.ruta.navigate(['/registro']);
   }
 
+  //CONEXION CON ECLIPSE
   ngOnInit(): void {
-    this.link = "http://localhost:8080/demoJakarta/rs/";
+    this.link = "http://localhost:8080/Biblioteca/rs/";
     sessionStorage.setItem("link", this.link);
   }
 
+  
   usuarioIniciar() {
     console.log(this.user);
     this.loginService.authenticate(this.user.username, this.user.password, this.link).subscribe(
