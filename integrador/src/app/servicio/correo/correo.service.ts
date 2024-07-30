@@ -19,6 +19,6 @@ export class CorreoService {
       message: message
     };
 
-    return emailjs.send('service_v7f728j', 'template_s7ilcn2', templateParams);
+    return emailjs.send('service_5vcvzgd', 'template_84bdeqy', templateParams);
   }
 }
