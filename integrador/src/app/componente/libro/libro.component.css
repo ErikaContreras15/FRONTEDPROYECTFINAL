@@ -96,11 +96,6 @@ nav ul li a {
   background-color: blue;
 }
 
-.no-disponible {
-  background-color: red;
-  cursor: not-allowed;
-}
-
 /* Estilos para los estados */
 .status {
   display: flex;

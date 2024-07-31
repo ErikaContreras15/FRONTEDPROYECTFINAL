@@ -2,15 +2,16 @@
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
   "projects": {
-    "Integrador": {
+    "integrador": {
       "projectType": "application",
       "root": "",
       "sourceRoot": "src",
       "architect": {
-        "build": {
+        "build"
+        : {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/Integrador",
+            "outputPath": "dist/integrador",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -48,18 +49,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "Integrador:build"
+            "browserTarget": "integrador:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "Integrador:build:production"
+              "browserTarget": "integrador:build:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "Integrador",
+  "defaultProject": "integrador",
   "cli": {
     "analytics": "1178df84-a90e-4268-83c2-3f0221767568"
   }
